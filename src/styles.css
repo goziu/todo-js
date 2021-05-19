@@ -1,3 +1,37 @@
 body {
   font-family: sans-serif;
 }
+
+input {
+  padding: 10px 20px;
+  border-radius: 100vh;
+  border: none;
+  outline: none;
+}
+
+button {
+  border-radius: 100vh;
+  border: none;
+  padding: 7px 20px;
+}
+
+button:hover {
+  background: #ff7fff;
+  color: #fff;
+  cursor: pointer;
+}
+
+.input-area {
+  background: #c1ffff;
+  padding: 20px;
+}
+
+.imcomplete-area {
+  background: #c6ffe2;
+  padding: 20px;
+}
+
+.complete-area {
+  background: #ffffe0;
+  padding: 20px;
+}
